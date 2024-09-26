@@ -1,0 +1,49 @@
+{
+  "uuid": "702d1097-9b5d-40a3-8f2b-cdd743599277",
+  "historyId": "10f0bd80a7dbeda793772ab19443575a",
+  "testCaseId": "b828010f5277c6b981f8212c9ba53df0",
+  "fullName": "NunitSelenium:NunitSelenium.Assignment.Parabank.paratest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOJYPZ6T1O8IE"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSelenium.Assignment"
+    },
+    {
+      "name": "testMethod",
+      "value": "paratest"
+    },
+    {
+      "name": "testClass",
+      "value": "Parabank"
+    },
+    {
+      "name": "tag",
+      "value": "Regesteration"
+    }
+  ],
+  "links": [],
+  "name": "paratest",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727091790369,
+  "stop": 1727091816410
+}

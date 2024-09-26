@@ -1,0 +1,12 @@
+{
+  "uuid": "215e094e-326f-4712-a895-1ab7cb760485",
+  "name": "NunitSelenium.NunitTest.Test1.testcase1",
+  "children": [
+    "e3ab7014-9b21-4aad-b285-b2b456641c4a"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1726489467621,
+  "stop": 1726489467628
+}

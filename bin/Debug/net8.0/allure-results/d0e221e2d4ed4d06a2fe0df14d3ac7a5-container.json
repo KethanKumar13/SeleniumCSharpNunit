@@ -1,0 +1,29 @@
+{
+  "uuid": "55c28baf-243a-41b0-9eeb-dcbb1f5aac22",
+  "name": "NunitSelenium.NunitTest.BaseClass",
+  "children": [
+    "be7127fa-a2e1-4907-898a-6e6c56a2c013",
+    "2a261117-cd1e-4d2c-b59c-3eb2913585e5",
+    "5dbfec25-3c9b-476a-ba40-2b4a1f2d4a7e",
+    "f1ebe60f-214b-4ebd-9df3-5177bafea5be",
+    "aebde324-bd74-46b6-b2a8-1143f32722f5",
+    "b6591172-3eb3-4178-ab23-15fbd1f93330",
+    "499dca39-2953-4fd9-bcfe-6b8fa2736311",
+    "658cd60f-cf12-4908-980b-b85ab33ff909",
+    "7d7a6d75-70d3-4f4c-a8b0-e61667375e26",
+    "d4a4b76d-f304-4f47-85fd-36a2d728f92a",
+    "168b2e63-2ea6-4f6b-8801-274be43b71ca",
+    "e998cae9-e1d7-4a79-aa50-713ebf89e5dc",
+    "b5a6b977-4136-49a5-b87d-fb84a4ab73b2",
+    "a3d22ed2-8846-43c5-ba49-23a483578c38",
+    "12b23971-c0ca-44dd-bfae-7b7f37212281",
+    "28f71930-2d02-4f1f-81f6-26124b4e68c3",
+    "f71380f1-0192-4a6b-b52c-8c4019c3fe06",
+    "33989136-530e-4b17-9af5-e93feca0b81f"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1726489311704,
+  "stop": 1726489311978
+}

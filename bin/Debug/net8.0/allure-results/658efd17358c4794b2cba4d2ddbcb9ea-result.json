@@ -1,0 +1,45 @@
+{
+  "uuid": "8c71dd21-600e-4b73-98e1-9b7bdac13446",
+  "historyId": "10f0bd80a7dbeda793772ab19443575a",
+  "testCaseId": "b828010f5277c6b981f8212c9ba53df0",
+  "fullName": "NunitSelenium:NunitSelenium.Assignment.Parabank.paratest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOJYPZ6T1O8IE"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSelenium.Assignment"
+    },
+    {
+      "name": "testMethod",
+      "value": "paratest"
+    },
+    {
+      "name": "testClass",
+      "value": "Parabank"
+    }
+  ],
+  "links": [],
+  "name": "paratest",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727090653470,
+  "stop": 1727090680576
+}

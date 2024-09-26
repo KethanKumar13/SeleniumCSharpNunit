@@ -31,10 +31,10 @@ namespace NunitSelenium.Selenium
         public void test()
         {
             IReadOnlyList<IWebElement> elements = chromeDriver.FindElements(By.TagName("a"));
-
+            
             foreach (IWebElement element in elements)
             {
-                Console.WriteLine(element.Text + " The URL is " + element.GetAttribute("href"));
+                Console.WriteLine(element.Text + " The URL " + element.GetAttribute("href"));
             }
 
         }

@@ -8,47 +8,26 @@ namespace NunitSelenium.NunitTest
 
 {
 
-    [Allure.NUnit.AllureNUnit]
+    //[Allure.NUnit.AllureNUnit]
     internal class Assertion
     {
         [Test]
-        public void Testassertion()
+        public void TestAssertion()
         {
             string actual = "google";
+            string expected = "yahooo";
 
-            string expected = "yahoo";
+            // Assert that actual is not equal to expected
+            Assert.AreNotEqual(actual, expected);
 
-            /*if (actual == expected)
-            {
-                Console.WriteLine("the resut are matchinng");
-            }
-            else
-            {
-                Console.WriteLine("the resultare not matching");
-            }*/
-            // assert equal
-
-            Assert.AreEqual(actual, expected);
-
-            //Assert.AreNotEqual(actual, expected);
-
-            Assert.That(actual, Is.EqualTo(expected));
-
+            // Assert that actual is not equal to expected using Assert.That
             Assert.That(actual, Is.Not.EqualTo(expected));
 
-            //assert for string ignore case
+            // Assert for string equality ignoring case (this will fail)
+            Assert.That(actual, Is.Not.EqualTo(expected).IgnoreCase);
 
-            Assert.That(actual, Is.EqualTo(expected).IgnoreCase);
-
-
-            //sbstrig presrenece
-
-            Assert.That(actual, Does.Contain("def").IgnoreCase);
-
+            // Assert that actual contains a substring (this will fail)
             Assert.That(actual, Does.Not.Contain("def").IgnoreCase);
-
-           
-
         }
     }
 }

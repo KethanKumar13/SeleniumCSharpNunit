@@ -7,6 +7,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace NunitSelenium.Selenium
 {
@@ -16,11 +17,9 @@ namespace NunitSelenium.Selenium
         [SetUp]
         public void StartBrowser()
         {
-            // confifgure the web driver manager to set up the chrome capabilities
-            new WebDriverManager.DriverManager().SetUpDriver(new FirefoxConfig());
-            // intialize the web driver 
-            driver = new FirefoxDriver();
-            // launch the forefox browser
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+            //Initialize web driver
+            driver = new ChromeDriver();
 
             driver.Navigate().GoToUrl("https://the-internet.herokuapp.com/drag_and_drop");
             driver.Manage().Window.Maximize();

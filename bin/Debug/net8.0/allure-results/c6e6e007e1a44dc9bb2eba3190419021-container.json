@@ -1,0 +1,12 @@
+{
+  "uuid": "0f6e8d44-f8c3-401f-b108-ec358a40f10d",
+  "name": "NunitSelenium.Assignment.Parabank.paratest1",
+  "children": [
+    "7ea82f03-2e25-4c05-bcc5-6b5ce1e08aa5"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1727418656707,
+  "stop": 1727418659493
+}

@@ -1,0 +1,52 @@
+{
+  "uuid": "cd17885c-0b71-4a96-a16f-89cec7082ee7",
+  "historyId": "a1982cefd469a703817b5fe217868b5f",
+  "testCaseId": "4133b99a301c7add0f019d1cb06eb4f6",
+  "fullName": "NunitSelenium:NunitSelenium.NunitTest.Tests.Test1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOJYPZ6T1O8IE"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSelenium.NunitTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Test1",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test Passed",
+    "trace": "   at NunitSelenium.NunitTest.Tests.Test1() in C:\\Users\\kekum\\source\\repos\\NunitSelenium\\NunitTest\\UnitTest1.cs:line 13\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727420515590,
+  "stop": 1727420515623
+}

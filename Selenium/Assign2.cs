@@ -16,12 +16,12 @@ namespace NunitSelenium.Selenium
         [SetUp]
         public void startbrowser()
         {
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
             //Initialize web driver
-            driver = new EdgeDriver();
+            driver = new ChromeDriver();
 
-            //Launch browser
             driver.Navigate().GoToUrl("https://www.saucedemo.com/");
+            driver.Manage().Window.Maximize();
 
         }
         [Test]

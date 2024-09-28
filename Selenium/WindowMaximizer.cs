@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace NunitSelenium.Selenium
 {
@@ -18,10 +19,9 @@ namespace NunitSelenium.Selenium
         public void startbrowser()
         {
 
-            // confifgure the web driver manager to set up the chrome capabilities
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
-            // intialize the web driver 
-            driver = new EdgeDriver();
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+            //Initialize web driver
+            driver = new ChromeDriver();
             // launch the chrome browser
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://www.selenium.dev/selenium/web/window_switching_tests/page_with_frame.html");

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace NunitSelenium.Assignment
 {
@@ -19,13 +20,12 @@ namespace NunitSelenium.Assignment
         public void startbrowser()
         {
 
-            // confifgure the web driver manager to set up the chrome capabilities
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
-            // intialize the web driver 
-            driver = new EdgeDriver();
-            // launch the chrome browser
-            driver.Manage().Window.Maximize();
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+            //Initialize web driver
+            driver = new ChromeDriver();
+
             driver.Navigate().GoToUrl("https://parabank.parasoft.com/parabank/register.html");
+            driver.Manage().Window.Maximize();
 
         }
 

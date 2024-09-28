@@ -7,6 +7,7 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace NunitSelenium.Selenium
 {
@@ -16,13 +17,12 @@ namespace NunitSelenium.Selenium
         [SetUp]
         public void startbrowser()
         {
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
             //Initialize web driver
-            driver = new EdgeDriver();
-            //Maximize the window
-            driver.Manage().Window.Maximize();
-            //Launch browser
+            driver = new ChromeDriver();
+
             driver.Navigate().GoToUrl("https://www.facebook.com/login/");
+            driver.Manage().Window.Maximize();
 
         }
         [Test]

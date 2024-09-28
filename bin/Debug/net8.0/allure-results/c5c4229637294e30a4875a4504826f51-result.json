@@ -1,0 +1,56 @@
+{
+  "uuid": "7ea82f03-2e25-4c05-bcc5-6b5ce1e08aa5",
+  "historyId": "bfc98728bc57c75dd6274636fd049f2c",
+  "testCaseId": "137e8685bfd22677b6439d264cb62bf9",
+  "fullName": "NunitSelenium:NunitSelenium.Assignment.Parabank.paratest1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOJYPZ6T1O8IE"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSelenium.Assignment"
+    },
+    {
+      "name": "testMethod",
+      "value": "paratest1"
+    },
+    {
+      "name": "testClass",
+      "value": "Parabank"
+    },
+    {
+      "name": "tag",
+      "value": "Login"
+    }
+  ],
+  "links": [],
+  "name": "paratest1",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : session not created: Microsoft Edge failed to start: crashed.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from msedge location C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities capabilities)\r\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\r\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(EdgeDriverService service, EdgeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(EdgeDriverService service, EdgeOptions options)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor(EdgeOptions options)\r\n   at OpenQA.Selenium.Edge.EdgeDriver..ctor()\r\n   at NunitSelenium.Assignment.Parabank.startbrowser() in C:\\Users\\kekum\\source\\repos\\NunitSelenium\\Assignment\\Parabank.cs:line 25\r\n   at InvokeStub_Parabank.startbrowser(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--TearDown\r\n   at NunitSelenium.Assignment.Parabank.tearDownbrowser() in C:\\Users\\kekum\\source\\repos\\NunitSelenium\\Assignment\\Parabank.cs:line 123\r\n   at InvokeStub_Parabank.tearDownbrowser(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727418656707,
+  "stop": 1727418659474
+}

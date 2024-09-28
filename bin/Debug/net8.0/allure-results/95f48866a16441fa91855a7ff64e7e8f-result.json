@@ -1,0 +1,45 @@
+{
+  "uuid": "e06724d4-5d11-4745-b407-6b84cc25e73d",
+  "historyId": "e5d463d6764cd57f10697fde7b65f86a",
+  "testCaseId": "9bacbc9c67625e7da5ef400ed5125e80",
+  "fullName": "NunitSelenium:NunitSelenium.NunitTest.Assertion.TestAssertion()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOJYPZ6T1O8IE"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSelenium.NunitTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAssertion"
+    },
+    {
+      "name": "testClass",
+      "value": "Assertion"
+    }
+  ],
+  "links": [],
+  "name": "TestAssertion",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727498677001,
+  "stop": 1727498677006
+}

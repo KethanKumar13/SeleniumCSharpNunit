@@ -17,10 +17,9 @@ namespace NunitSelenium.Selenium
         [SetUp]
         public void startbrowser()
         {
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
             //Initialize web driver
-            driver = new EdgeDriver();
-            //Maximize the window
+            driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             //Launch browser
             driver.Navigate().GoToUrl("https://www.selenium.dev/");

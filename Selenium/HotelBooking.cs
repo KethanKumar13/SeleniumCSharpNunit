@@ -7,6 +7,7 @@ using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace NUnitSeleniumCsharp.Selenium
 {
@@ -35,7 +36,7 @@ namespace NUnitSeleniumCsharp.Selenium
         public void testcase1()
         {
             Thread.Sleep(8000);
-            IWebElement close = driver.FindElement(By.XPath("//button[@aria-label='Dismiss sign-in info.']"));
+            IWebElement close = driver.FindElement(By.XPath("//button[@aria-label='Dismiss sign in information.']//span[@class='fcd9eec8fb bf9a32efa5']//*[name()='svg']"));
 
             close.Click();
 

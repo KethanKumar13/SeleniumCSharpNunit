@@ -7,6 +7,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
 using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Chrome;
 
 namespace NunitSelenium.Selenium
 {
@@ -16,11 +17,9 @@ namespace NunitSelenium.Selenium
         [SetUp]
         public void StartBrowser()
         {
-            // confifgure the web driver manager to set up the chrome capabilities
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
-            // intialize the web driver 
-            driver = new EdgeDriver();
-            // launch the forefox browser
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
+            //Initialize web driver
+            driver = new ChromeDriver();
 
             driver.Navigate().GoToUrl("https://rahulshettyacademy.com/AutomationPractice/");
             driver.Manage().Window.Maximize();

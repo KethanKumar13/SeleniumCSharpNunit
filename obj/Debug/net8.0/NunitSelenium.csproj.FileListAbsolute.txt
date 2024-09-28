@@ -127,6 +127,7 @@ C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\NunitSelenium.Generat
 C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\NunitSelenium.AssemblyInfoInputs.cache
 C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\NunitSelenium.AssemblyInfo.cs
 C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\NunitSelenium.csproj.CoreCompileInputs.cache
+C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\NunitSelenium.sourcelink.json
 C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\NunitSel.9472368C.Up2Date
 C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\NunitSelenium.dll
 C:\Users\kekum\source\repos\NunitSelenium\obj\Debug\net8.0\refint\NunitSelenium.dll

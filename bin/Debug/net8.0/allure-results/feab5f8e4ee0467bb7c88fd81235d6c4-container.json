@@ -1,0 +1,12 @@
+{
+  "uuid": "1fe59e3c-f286-45c6-9b82-e44bd9e0cc5c",
+  "name": "NunitSelenium.NunitTest.SetUpTearDown.login",
+  "children": [
+    "d9ecf421-bae2-4bff-a151-ca3419648e34"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1727498677082,
+  "stop": 1727498677085
+}

@@ -2811,7 +2811,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kekum\\.nuget\\packages\\": {}
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2819,11 +2819,11 @@
       "projectUniqueName": "C:\\Users\\kekum\\source\\repos\\NunitSelenium\\NunitSelenium.csproj",
       "projectName": "NunitSelenium",
       "projectPath": "C:\\Users\\kekum\\source\\repos\\NunitSelenium\\NunitSelenium.csproj",
-      "packagesPath": "C:\\Users\\kekum\\.nuget\\packages\\",
+      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kekum\\source\\repos\\NunitSelenium\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kekum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

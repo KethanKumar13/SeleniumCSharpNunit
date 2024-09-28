@@ -1,0 +1,12 @@
+{
+  "uuid": "a2fd5636-9f01-44ca-9d45-4fa43be4a2ba",
+  "name": "NunitSelenium.NunitTest.ParallelExecution.Logout",
+  "children": [
+    "8e1fdd2d-486c-4450-a943-5ccc7e38b4a1"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1727431883200,
+  "stop": 1727431883202
+}
